@@ -1,4 +1,4 @@
-# Documentation
+# EEHelper
 
 ## Summary
 
@@ -13,25 +13,19 @@ What is the purpose of your module?
     
 What problem does it solve and how does it do that?
     It helps close the knowledge gap of how a page is constructed of components.  It acomplishes this by adding the path of the componetn into the component's title.
- 
-    
+
 
 ## Pre-requisites
-
-Does your module rely on other Sitecore modules or frameworks?
 
   None
 
 ## Installation
 
-Provide detailed instructions on how to install the module, and include screenshots where necessary.
-
-1. Use the Sitecore Installation wizard to install the [EEHelper](#https://github.com/Sitecore-Hackathon/2019-Sitecore-xMen/tree/master/sc.package)
+  Use the Sitecore Installation wizard to install the [EEHelper](#https://github.com/Sitecore-Hackathon/2019-Sitecore-xMen/tree/master/sc.package)
 
 ## Configuration
 
     None
- 
 
 ## Usage
 
@@ -39,21 +33,14 @@ Provide documentation  about your module, how do the users use your module, wher
 
 Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
 
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
+![EEHelper](images/EEHelper-Sample.jpg)
 
-You can embed images of different formats too:
-
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://placeimg.com/480/240/any "Random")
 
 ## Video
 
 A video of our Hackathon Module can be found here:
 
-[EEHelper](https://www.youtube.com/watch?v=T1kXf9_2Hno) 
+[![EEHelper](https://img.youtube.com/vi/EpNhxW4pNKk/EEHelper-Title.jpg](https://www.youtube.com/watch?v=T1kXf9_2Hno) 
 
 [![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
 ![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
