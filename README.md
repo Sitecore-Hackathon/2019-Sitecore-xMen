@@ -3,7 +3,9 @@
 # Welcome to Sitecore xMen
 
 Steve Bridges
+
 Rob Reilley
+
 Christopher Westfall
 
 The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2019/
