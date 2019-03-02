@@ -10,7 +10,7 @@ Christopher Westfall
 
 ## Summary
 
-To help Content Editors understand the relation between components and the page, we created a module which allows them to easily see the component in realtion to the rest of the page.
+To help Content Editors understand the relation between components and the page, we created a module which allows them to easily see the component in relation to the rest of the page.
 
 **Category:** 
 
@@ -18,7 +18,7 @@ Best enhancement to the Sitecore Admin (XP) UI for Content Editors & Marketers
 
 The module makes it easy for Content Authors to see how a component is structured in relation to the page.
     
-It helps close the knowledge gap of how a page is constructed of components.  It acomplishes this by adding the path of the componetn into the component's title.
+It helps close the knowledge gap of how a page is constructed of components.  It accomplishes this by adding the path of the component into the component's title.
 
 
 ## Pre-requisites
@@ -51,5 +51,3 @@ A video of our Hackathon Module can be found here:
 
 
 The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2019/
-
-
