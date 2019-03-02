@@ -39,14 +39,14 @@ Provide documentation  about your module, how do the users use your module, wher
 
 Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
 
-![EEHelper](images/EEHelper-Sample.jpg)
+![EEHelper](documentation/images/EEHelper-Sample.jpg)
 
 
 ## Video
 
 A video of our Hackathon Module can be found here:
 
-[![EEHelper](images/EEHelper-Title.jpg)](https://www.youtube.com/watch?v=T1kXf9_2Hno)
+[![EEHelper](documentation/images/EEHelper-Title.jpg)](https://www.youtube.com/watch?v=T1kXf9_2Hno)
 
 
 
