@@ -1,52 +1,37 @@
 # Documentation
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
-
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
-
 ## Summary
 
-**Category:** Hackathon Category
+To help Content Editors understand the relation between components and the page, we created a module which allows them to easily see the component in realtion to the rest of the page.
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+**Category:** 
+
+Best enhancement to the Sitecore Admin (XP) UI for Content Editors & Marketers
+
+What is the purpose of your module?
+    The module makes it easy for Content Authors to see how a component is structured in relation to the page.
+    
+What problem does it solve and how does it do that?
+    It helps close the knowledge gap of how a page is constructed of components.  It acomplishes this by adding the path of the componetn into the component's title.
+ 
+    
 
 ## Pre-requisites
 
 Does your module rely on other Sitecore modules or frameworks?
 
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+  None
 
 ## Installation
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+1. Use the Sitecore Installation wizard to install the [EEHelper](#https://github.com/Sitecore-Hackathon/2019-Sitecore-xMen/tree/master/sc.package)
 
 ## Configuration
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
-
-Remember you are using Markdown, you can provide code samples too:
-
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
+    None
+ 
 
 ## Usage
 
@@ -66,6 +51,55 @@ And you can embed external images too:
 
 ## Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
+A video of our Hackathon Module can be found here:
+
+[EEHelper](https://www.youtube.com/watch?v=T1kXf9_2Hno) 
 
 [![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
+
+# Welcome to Sitecore xMen
+
+Steve Bridges
+
+Rob Reilley
+
+Christopher Westfall
+
+The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2019/
+
+The purpose of this repository is to provide a location for our 2019 Hackathon entry.
+
+#Module Purpose:  Help Content Editors by adding an intuitive way to understand component structure on a page.
+
+#Module Category:  Best enhancement to the Sitecore Admin (XP) UI for Content Editors & Marketers
+
+#How does the end user use the module?  They do not need to learn anything new, but now have improved benefit from the Experience Editor.
+
+#Screenshots
+
+## Entry Submission Requirements 
+
+The modules was based on [Sitecore 9.1 (Initial Release)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx).
+
+- Sitecore 9.1 (Initial Release) Module (Module install package)
+   
+   https://github.com/Sitecore-Hackathon/2019-Sitecore-xMen/tree/master/sc.package
+
+- Module code in a public Git source repository. 
+
+https://github.com/Sitecore-Hackathon/2019-Sitecore-xMen
+
+
+- Precise and Clear Installation Instructions document (1 – 2 pages)
+
+
+- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
+  - Module Purpose
+  - Module Sitecore Hackathon Category
+  - How does the end user use the Module?
+  - Screenshots, etc.
+
+- Create a 2 – 10 minutes video explaining the module’s functionality
+
+https://www.youtube.com/watch?v=T1kXf9_2Hno
