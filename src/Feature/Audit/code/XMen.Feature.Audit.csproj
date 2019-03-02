@@ -230,6 +230,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Content Include="Sitecore\Shell\Applications\XMenAudit\AuditLogViewer\AuditViewer.cshtml" />
     <None Include="Web.always.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -246,6 +247,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Config\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sitecore\Shell\Applications\XMenAudit\AuditLogViewer\LogViewer.aspx" />
+    <Content Include="Sitecore\Shell\Applications\XMenAudit\AuditLogViewer\ViewMembers.xaml.xml" />
+    <Content Include="Sitecore\Shell\Applications\XMenAudit\AuditLogViewer\ViewParentRoles.xaml.xml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
