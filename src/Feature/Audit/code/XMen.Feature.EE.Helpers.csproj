@@ -228,6 +228,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="App_Config\Sitecore\Experience Editor\Sitecore.ExperienceEditor.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.always.config">
@@ -244,8 +245,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="App_Config\" />
+    <Content Include="Sitecore\Shell\Applications\Page Modes\XMenFeatureEEHelpers.js" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
