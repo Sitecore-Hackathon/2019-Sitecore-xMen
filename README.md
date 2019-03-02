@@ -10,7 +10,7 @@ Christopher Westfall
 
 ## Summary
 
-To help Content Editors understand the relation between components and the page, we created a module which allows them to easily see the component in relation to the rest of the page.
+To help Content Editors understand the relation between components and the page, we created a module which allows them to easily see the component in relation to the page's layout.
 
 **Category:** 
 
