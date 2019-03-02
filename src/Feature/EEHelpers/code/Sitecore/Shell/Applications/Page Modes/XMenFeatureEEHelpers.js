@@ -1,4 +1,8 @@
 ﻿Sitecore.PageModes.ChromeControls = Sitecore.PageModes.ChromeControls.extend({
+    /**
+    * Replacing the renderTitle function in ChromeControls.
+    * This will create the breadcrumb used for the EE.
+    */
     renderTitle: function (command, chrome, isMoreCommand) {
         var container = $sc("<div class='scChromeName'></div>");
 
