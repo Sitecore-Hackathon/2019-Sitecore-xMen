@@ -29,9 +29,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 		documentation\images\hackathon.png = documentation\images\hackathon.png
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExperienceEditor", "ExperienceEditor", "{3563D183-CC61-4B5D-908A-0CF25E7546A4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EEHelpers", "EEHelpers", "{E1146159-4999-4208-8C92-41CD07B3D132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMen.Feature.EE.Helpers", "src\Feature\Audit\code\XMen.Feature.EE.Helpers.csproj", "{2F2DCEBD-08EA-4052-8774-F8A8CB262876}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMen.Feature.EEHelpers", "src\Feature\EEHelpers\code\XMen.Feature.EEHelpers.csproj", "{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,33 +45,33 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.always|Any CPU.ActiveCfg = always|Any CPU
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.always|Any CPU.Build.0 = always|Any CPU
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.always|x64.ActiveCfg = always|x64
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.always|x64.Build.0 = always|x64
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.ci|Any CPU.ActiveCfg = ci|Any CPU
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.ci|Any CPU.Build.0 = ci|Any CPU
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.ci|x64.ActiveCfg = ci|x64
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.ci|x64.Build.0 = ci|x64
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.Debug|x64.ActiveCfg = Debug|x64
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.Debug|x64.Build.0 = Debug|x64
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.Release|x64.ActiveCfg = Release|x64
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876}.Release|x64.Build.0 = Release|x64
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.always|Any CPU.ActiveCfg = always|Any CPU
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.always|Any CPU.Build.0 = always|Any CPU
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.always|x64.ActiveCfg = always|x64
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.always|x64.Build.0 = always|x64
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.ci|Any CPU.ActiveCfg = ci|Any CPU
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.ci|Any CPU.Build.0 = ci|Any CPU
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.ci|x64.ActiveCfg = ci|x64
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.ci|x64.Build.0 = ci|x64
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.Debug|x64.ActiveCfg = Debug|x64
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.Debug|x64.Build.0 = Debug|x64
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.Release|x64.ActiveCfg = Release|x64
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
-		{3563D183-CC61-4B5D-908A-0CF25E7546A4} = {17DD5718-6E13-4F2C-9738-B410396D4552}
-		{2F2DCEBD-08EA-4052-8774-F8A8CB262876} = {3563D183-CC61-4B5D-908A-0CF25E7546A4}
+		{E1146159-4999-4208-8C92-41CD07B3D132} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E} = {E1146159-4999-4208-8C92-41CD07B3D132}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
 	EndGlobalSection
 EndGlobal

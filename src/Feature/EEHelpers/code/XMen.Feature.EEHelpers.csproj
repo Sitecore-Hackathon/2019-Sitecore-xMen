@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2F2DCEBD-08EA-4052-8774-F8A8CB262876}</ProjectGuid>
+    <ProjectGuid>{0E3EF6CA-DC74-41CC-BDAD-B920CF176C4E}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XMen.Feature.Audit</RootNamespace>
-    <AssemblyName>XMen.Feature.Audit</AssemblyName>
+    <RootNamespace>XMen.Feature.EEHelpers</RootNamespace>
+    <AssemblyName>XMen.Feature.EEHelpers</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -228,7 +228,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="App_Config\Sitecore\Experience Editor\Sitecore.ExperienceEditor.config" />
+    <None Include="App_Config\Include\Feature\Feature.EEHelpers.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.always.config">
