@@ -8,11 +8,7 @@
 
         var isReadOnly = this.chrome.isReadOnly();
 
-        // var title = $sc("<span class='scChromeText'></span>")     
-        //   .text($sc.truncate(displayName, this._maxDisplayNameLength))
-        //   .appendTo(container);
-
-        var title = $sc("<span class='scChromeText'></span>");
+        var title = $sc("<span class='scChromeText' style='color:#FF0000 !important'></span>");
         this.ancestorListFlat = title;
         this.renderAncestorsFlat().append($sc.truncate(displayName, this._maxDisplayNameLength));
 
@@ -46,7 +42,7 @@
     renderAncestorFlat: function (ancestor, level) {
         var paddingValue = 16;
         var row = $sc("<a class='' href='#'></a>");
-        $sc("<span class='scChromeText'></span>").text(ancestor.displayName()).appendTo(row);
+        $sc("<span class='scChromeText' ></span>").text(ancestor.displayName() + "  > ").appendTo(row);
 
         row.mouseenter(function () {
             ancestor.showHover("ancestor menu mouseenter");
